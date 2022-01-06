@@ -12,8 +12,10 @@ function initMap() {
   var mapDiv = document.getElementById('contact-map');
   if (!mapDiv) return;
 
-  var LatLng = {lat: 41.75417838733706, lng: 13.4270923662109};
-  var LatLngMarker = {lat: 41.85245379736374, lng: 14.029280476562462};
+  // 23.80160161134046, 90.426256698708
+
+  var LatLng = { lat: 23.80160161134046, lng: 90.426256698708 };
+  var LatLngMarker = { lat: 23.80160161134046, lng: 90.426256698708 };
 
   var styledMap = new google.maps.StyledMapType(styleArray,
     {name: "Styled Map"});
